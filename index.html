@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- R1: viewport para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hoja de vida web de Sebastian Andres Carrillo Jurado, desarrollador de software en formación.">
+  <title>Sebastian Carrillo | Hoja de vida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- R4: estructura principal con áreas de CSS Grid -->
+  <div class="layout layout-inicio">
+    <header class="cabecera">
+      <a class="marca" href="index.html">Sebastian Carrillo</a>
+      <span class="submarca">Desarrollador de software en formación</span>
+    </header>
+
+    <!-- R8: menú de navegación consistente en todas las páginas -->
+    <nav class="menu" aria-label="Navegación principal">
+      <a class="activo" href="index.html" aria-current="page">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="contenido">
+      <section class="presentacion tarjeta">
+        <div class="avatar" role="img" aria-label="Ilustración decorativa de perfil">
+          <span>SC</span>
+        </div>
+        <div>
+          <p class="eyebrow">PORTAFOLIO PERSONAL</p>
+          <h1>Sebastian Andres Carrillo Jurado</h1>
+          <p class="destacado">Desarrollador de software en formación</p>
+          <p>Estudiante técnico en programación, apasionado por la tecnología y el desarrollo de software. Me considero una persona creativa, dedicada y dispuesta a aprender mediante nuevos retos.</p>
+          <a class="boton" href="proyectos.html">Ver mis proyectos</a>
+        </div>
+      </section>
+
+      <section class="seccion tarjeta">
+        <h2>Perfil</h2>
+        <p>Actualmente me encuentro fortaleciendo mis conocimientos en programación, desarrollo web, herramientas de control de versiones y trabajo colaborativo. Me interesa crear soluciones útiles y seguir creciendo como desarrollador.</p>
+      </section>
+
+      <section class="seccion tarjeta">
+        <h2>Formación académica</h2>
+        <article class="item-linea">
+          <div><h3>Técnico laboral en desarrollo de software</h3><p>Campuslands · En curso</p></div>
+        </article>
+        <article class="item-linea">
+          <div><h3>Formación en inglés</h3><p>Academia Smart · En curso</p></div>
+        </article>
+        <article class="item-linea">
+          <div><h3>Bachiller académico</h3><p>Colegio Semillero Dos Mil · 2025</p></div>
+        </article>
+      </section>
+
+      <section class="seccion tarjeta">
+        <h2>Habilidades técnicas</h2>
+        <!-- R5: tarjetas adaptables con repeat y minmax -->
+        <div class="rejilla-tarjetas habilidades">
+          <article class="mini-tarjeta"><span class="icono-codigo">Py</span><h3>Python</h3><p>Fundamentos de programación</p></article>
+          <article class="mini-tarjeta"><span class="icono-codigo">Git</span><h3>Git y GitHub</h3><p>Control de versiones</p></article>
+          <article class="mini-tarjeta"><span class="icono-codigo">5</span><h3>HTML5</h3><p>Estructura web</p></article>
+          <article class="mini-tarjeta"><span class="icono-codigo">3</span><h3>CSS</h3><p>Estilos y diseño responsive</p></article>
+        </div>
+      </section>
+
+      <section class="seccion tarjeta">
+        <h2>Competencias personales</h2>
+        <ul class="etiquetas">
+          <li>Creatividad</li><li>Liderazgo</li><li>Paciencia</li><li>Proactividad</li><li>Empatía</li><li>Disciplina</li><li>Adaptabilidad</li><li>Comunicación</li>
+        </ul>
+      </section>
+
+      <section class="seccion tarjeta dos-columnas">
+        <div><h2>Idiomas</h2><p><strong>Inglés:</strong> A2 (en formación)</p></div>
+        <div><h2>Experiencia académica</h2><p>Participación en proyectos formativos de desarrollo de software, incluyendo un sistema de gestión para un gimnasio y actividades de trabajo colaborativo con Git y GitHub.</p></div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>© 2026 Sebastian Carrillo · Portafolio académico</p>
+      <a href="contacto.html">Ponte en contacto</a>
+    </footer>
+  </div>
+</body>
+</html>

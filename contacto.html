@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- R1: viewport para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Información de contacto profesional de Sebastian Carrillo.">
+  <title>Contacto | Sebastian Carrillo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout layout-contacto">
+    <header class="cabecera">
+      <a class="marca" href="index.html">Sebastian Carrillo</a>
+      <span class="submarca">Contacto profesional</span>
+    </header>
+
+    <!-- R8: el mismo menú aparece en todas las páginas -->
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a class="activo" href="contacto.html" aria-current="page">Contacto</a>
+    </nav>
+
+    <main class="contenido">
+      <section class="intro-pagina tarjeta">
+        <p class="eyebrow">HABLEMOS</p>
+        <h1>Contacto</h1>
+        <p>Si deseas conversar sobre proyectos académicos, colaboración o desarrollo web, puedes utilizar la información que aparece a continuación.</p>
+      </section>
+
+      <div class="contacto-distribucion">
+        <section class="tarjeta formulario-contenedor">
+          <h2>Envíame un mensaje</h2>
+          <!-- Formulario visual: no envía datos a un servidor -->
+          <form action="mailto:eldogorwazaaaa@gmail.com" method="post" enctype="text/plain">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+            </div>
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input id="correo" name="correo" type="email" autocomplete="email" required>
+            </div>
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <input id="asunto" name="asunto" type="text" required>
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button class="boton" type="submit">Preparar correo</button>
+            <p class="nota-formulario">Este formulario abre la aplicación de correo configurada en tu dispositivo; no almacena mensajes en el sitio.</p>
+          </form>
+        </section>
+
+        <aside class="tarjeta datos-contacto">
+          <h2>Datos profesionales</h2>
+          <div class="dato">
+            <span class="dato-icono" aria-hidden="true">@</span>
+            <div><h3>Correo electrónico</h3><a href="mailto:eldogorwazaaaa@gmail.com">eldogorwazaaaa@gmail.com</a></div>
+          </div>
+          <div class="dato">
+            <span class="dato-icono" aria-hidden="true">⌘</span>
+            <div><h3>Portafolio</h3><p>En construcción.</p></div>
+          </div>
+          <p class="privacidad">Por seguridad, esta página no publica número de documento, dirección de vivienda, teléfono personal ni fecha de nacimiento.</p>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <p>© 2026 Sebastian Carrillo · Portafolio académico</p>
+      <a href="index.html">Volver al inicio</a>
+    </footer>
+  </div>
+</body>
+</html>

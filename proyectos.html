@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- R1: viewport para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyectos académicos de Sebastian Carrillo.">
+  <title>Proyectos | Sebastian Carrillo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout layout-proyectos">
+    <header class="cabecera">
+      <a class="marca" href="index.html">Sebastian Carrillo</a>
+      <span class="submarca">Proyectos académicos</span>
+    </header>
+
+    <!-- R8: el mismo menú aparece en todas las páginas -->
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a class="activo" href="proyectos.html" aria-current="page">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="contenido">
+      <section class="intro-pagina tarjeta">
+        <p class="eyebrow">TRABAJO Y APRENDIZAJE</p>
+        <h1>Mis proyectos</h1>
+        <p>Estos son algunos proyectos y ejercicios desarrollados durante mi formación. Cada uno representa una oportunidad para practicar, resolver problemas y trabajar en equipo.</p>
+      </section>
+
+      <!-- R5: repeat(auto-fit, minmax()) se define en styles.css -->
+      <section class="rejilla-tarjetas proyectos" aria-label="Listado de proyectos">
+        <article class="proyecto tarjeta">
+          <div class="proyecto-ilustracion ilustracion-gimnasio" role="img" aria-label="Ilustración de pesas para el proyecto del gimnasio"><span>FT</span></div>
+          <div class="proyecto-cuerpo">
+            <p class="categoria">Python · SCRUM</p>
+            <h2>Sistema de gestión Gimnasio ForceTech</h2>
+            <p>Propuesta de sistema para administrar inscripciones, servicios, capacidad y seguimiento del progreso de clientes del gimnasio.</p>
+            <ul class="etiquetas"><li>Python</li><li>Trabajo en equipo</li></ul>
+          </div>
+        </article>
+
+        <article class="proyecto tarjeta">
+          <div class="proyecto-ilustracion ilustracion-git" role="img" aria-label="Ilustración de ramas de control de versiones"><span>Git</span></div>
+          <div class="proyecto-cuerpo">
+            <p class="categoria">Git · GitHub</p>
+            <h2>Proyecto de control de versiones</h2>
+            <p>Prácticas de repositorios, ramas, commits, historial de cambios y colaboración mediante Git y GitHub.</p>
+            <ul class="etiquetas"><li>Repositorios</li><li>Colaboración</li></ul>
+          </div>
+        </article>
+
+        <article class="proyecto tarjeta">
+          <div class="proyecto-ilustracion ilustracion-web" role="img" aria-label="Ilustración de una ventana de navegador"><span>&lt;/&gt;</span></div>
+          <div class="proyecto-cuerpo">
+            <p class="categoria">HTML5 · CSS</p>
+            <h2>Diseño de páginas web</h2>
+            <p>Ejercicios de estructura semántica, diseño visual, organización de contenido y adaptación a distintos tamaños de pantalla.</p>
+            <ul class="etiquetas"><li>HTML</li><li>CSS responsive</li></ul>
+          </div>
+        </article>
+
+        <article class="proyecto tarjeta">
+          <div class="proyecto-ilustracion ilustracion-aprendizaje" role="img" aria-label="Ilustración de una lista de tareas"><span>✓</span></div>
+          <div class="proyecto-cuerpo">
+            <p class="categoria">Programación</p>
+            <h2>Ejercicios de lógica</h2>
+            <p>Actividades para practicar variables, condicionales, ciclos, funciones y organización de código.</p>
+            <ul class="etiquetas"><li>Fundamentos</li><li>Resolución de problemas</li></ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="tarjeta llamada-accion">
+        <h2>¿Quieres conocer más?</h2>
+        <p>Escríbeme para conversar sobre mi proceso de aprendizaje y mis proyectos.</p>
+        <a class="boton" href="contacto.html">Ir a contacto</a>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>© 2026 Sebastian Carrillo · Portafolio académico</p>
+      <a href="contacto.html">Ponte en contacto</a>
+    </footer>
+  </div>
+</body>
+</html>
