@@ -8,9 +8,11 @@ Sitio personal responsive para presentar mi perfil, formación, habilidades y pr
 - `contacto.html`: correo y formulario que prepara un mensaje en la aplicación de correo del usuario.
 
 ## Tecnologías
-- HTML5 semántico.
-- CSS3, CSS Grid, `grid-template-areas`, `repeat()` y `minmax()`.
-- Diseño Mobile First y media queries.
+- HTML5 para la estructura y el contenido.
+- CSS3 para los estilos visuales.
+- CSS Grid para la distribución de las áreas.
+- Media queries para la adaptación a dispositivos móviles y computadores.
+- GitHub Pages para la publicación del sitio web.
 
 ## Breakpoints
 - Base, menos de 600px: una columna y navegación debajo de la cabecera.
@@ -34,10 +36,10 @@ hoja-de-vida-web/
 Abre la carpeta en Visual Studio Code y ejecuta `index.html` con la extensión Live Server, o abre el archivo directamente en un navegador.
 
 ## Publicación
-Pendiente: publicar el repositorio público con GitHub Pages y añadir aquí el enlace real del sitio.
+El sitio web se encuentra publicado mediante GitHub Pages y puede consultarse en el siguiente enlace: https://sebascarrillo820.github.io/
 
 ## Mockups y capturas
-Añadir los seis mockups en `mockups/` y las capturas del sitio en `capturas/` antes de entregar.
+Añadi los seis mockups en `mockups/` y las capturas del sitio en `capturas/` .
 
 ## Fuentes consultadas
 - [Documentación de HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
